@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>office-gpt</title>
+  </head>
+
+  <body>
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+      <a href="#" class="brand">
+        <i class="bx   open-sidebar-btn">
+          <style>
+            .logo-parents {
+              display: flex;
+              gap: 4px;
+              padding-left: 10px;
+            }
+            .bar {
+              width: 7px;
+              height: 26px;
+              background-color: #3c91e6;
+            }
+
+            .rot {
+              margin-right: 5px;
+              transform: rotate(200deg);
+            }
+          </style>
+
+          <div class="logo-parents">
+            <div class="bar rot"></div>
+
+            <div class="bar"></div>
+
+            <div class="bar"></div>
+          </div>
+        </i>
+        <span class="text">
+          <button class="open-sidebar-btn1">OfficeGPT</button>
+
+          <div class="sidebar">
+            <button class="close-sidebar-btn">
+              <!-- Close -->
+
+              <i class="ri-calendar-close-fill rty"></i>
+            </button>
+            <div class="class-create-folder">
+              <div class="create">
+                <button class="creaate1">Uplod Documents</button>
+                <button class="creaate1">Create folder</button>
+              </div>
+              <div class="search-bar-items">
+                <input
+                  type="text"
+                  placeholder="Search-file name  &#128269;"
+                  class="custom-input"
+                />
+              </div>
+
+              <div class="folder">
+                <div class="folder-logo">
+                  <i class="ri-folder-3-line folder-icons"></i>
+                </div>
+
+                <div class="fplder-text">
+                  <li>OfficeGPT</li>
+                  <li>&#xF211 2023-12-20</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+      </a>
+
+      <ul class="side-menu top">
+        <li>
+          <a href="#">
+            <i class="bx bxs-dashboard"></i>
+
+            <span class="text">Dashboard</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx ri-chat-3-line"></i>
+            <span class="text">+ new chat</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bxs-folder"></i>
+            <span class="text">folder</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bxs-doughnut-chart"></i>
+            <span class="text">Analytics</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bxs-message-dots"></i>
+            <span class="text">Message</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="logout">
+            <i class="bx bxs-cog"></i>
+            <span class="text">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="logout">
+            <i class="bx bxs-log-out-circle"></i>
+            <span class="text">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- CONTENT -->
+    <section id="content">
+      <!-- NAVBAR -->
+      <nav>
+        <i class="bx bx-menu"></i>
+        <a href="#" class="nav-link">Categories</a>
+        <form action="#">
+          <div class="form-input">
+            <input type="search" placeholder="Search..." />
+            <button type="submit" class="search-btn">
+              <i class="bx bx-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="images-round">
+          <img src="./img/preview.jpg" class="image3"
+        </div>
+
+        <!-- <a href="#" class="profile">
+          <img src="./img/shutterstock_583717939.jpg" class="IMG1" />
+        </a> -->
+      </nav>
+
+      <main>
+        <!-- <div class="chat">
+          <div class="chat-header">
+            <div class="left-images">
+              <div class="image-left">
+                <img
+                  src="./img/people.png"
+                  alt="Girl in a jacket"
+                  class="jacket"
+                />
+
+                <div class="list-items">
+                  <div class="l1">Nika Jardo</div>
+                  <div class="l1">last seen 5 hours ago</div>
+                </div>
+              </div>
+
+              <div class="file-attachment-icon">
+                <i class="bx bxs-cloud-upload cloud-uplods"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="reply-images">
+            <div class="left-reply-images">
+              <div class="images-left-logo">
+                <img
+                  src="./img/people.png"
+                  alt="Girl in a jacket"
+                  class="jacket1"
+                />
+
+                <div class="lorem-text">
+                  <li>Hello! finally i found time to write!</li>
+                  <li>
+                    Creating interactive animation for my mobile application
+                  </li>
+                </div>
+              </div>
+
+              <div class="images-left-logo1">
+                <div class="lorem-text111">
+                  <li>Can i send you file?</li>
+                </div>
+              </div>
+
+              <div class="images-left-logo2">
+                <div class="lorem-text2">
+                  <li class="ok">Hey ok send out</li>
+                </div>
+              </div>
+
+              <div class="images-left-logo">
+                <img
+                  src="./img/people.png"
+                  alt="Girl in a jacket"
+                  class="jacket1"
+                />
+
+                <div class="lorem-text4">
+                  <li>📁 style.zip</li>
+                  <li>44mb</li>
+                </div>
+              </div>
+
+              <div class="clas-type-message">
+                <li>type your message here</li>
+
+                <li>🎙️<i class="ri-send-plane-2-line"></i></li>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="logo-parents1">
+          <div class="bar1 rot"></div>
+
+          <div class="bar1"></div>
+
+          <div class="bar1"></div>
+          <p class="office">OfficeGPT 3.5</p>
+        </div>
+
+        <div class="reply-parts-user">
+          <div class="you">
+            <div class="div-logo-user">
+              <img src="./img/preview.jpg" class="lg1" />
+            </div>
+            <div class="asking">
+              <li class="fonts1">You</li>
+              <li class="fonts1">What is today's weather?</li>
+            </div>
+          </div>
+
+          <div class="you">
+            <div class="div-logo-user">
+              <img src="./img/remove.png" class="lg1" />
+            </div>
+            <div class="asking">
+              <li class="fonts2">OfficeGPT</li>
+              <li class="fonts1">
+                If you're asking about the weather today, I can't provide
+                real-time information.
+              </li>
+            </div>
+          </div>
+
+          <div class="you">
+            <div class="div-logo-user">
+              <img src="./img/preview.jpg" class="lg1" />
+            </div>
+            <div class="asking">
+              <li class="fonts1">You</li>
+              <li class="fonts1">who is the father of india ?</li>
+            </div>
+          </div>
+
+          <div class="you">
+            <div class="div-logo-user">
+              <img src="./img/remove.png" class="lg1" />
+            </div>
+            <div class="asking">
+              <li class="fonts2">OfficeGPT</li>
+              <li class="fonts1">
+                The term "Father of India" is often associated with Mohandas
+                Karamchand Gandhi, more commonly known as Mahatma Gandhi.
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <form class="input-box">
+          <input
+            class="vty"
+            type="text"
+            placeholder="message OfficeGPT"
+            name="message"
+          />
+          <button class="submit" type="submit">Send</button>
+        </form>
+
+        <div class="footer-text">
+          <li class="gpt-text">
+            OfficeGPT can make mistakes. Consider checking important
+            information.
+          </li>
+        </div>
+      </main>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
